@@ -11,7 +11,7 @@
  "fields": [
   {
    "allow_on_submit": 0, 
-   "depends_on": "field:shape", 
+   "depends_on": "", 
    "fieldname": "shape", 
    "fieldtype": "Data", 
    "hidden": 0, 
@@ -37,7 +37,7 @@
  "is_submittable": 0, 
  "issingle": 0, 
  "istable": 0, 
- "modified": "2015-06-09 15:15:22.545537", 
+ "modified": "2015-06-09 15:58:09.398840", 
  "modified_by": "Administrator", 
  "module": "Order Management", 
  "name": "Shape", 

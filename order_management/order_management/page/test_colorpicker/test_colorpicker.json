@@ -1,0 +1,21 @@
+{
+ "content": null, 
+ "creation": "2015-06-09 18:03:16.399511", 
+ "docstatus": 0, 
+ "doctype": "Page", 
+ "modified": "2015-06-09 18:03:16.399511", 
+ "modified_by": "Administrator", 
+ "module": "Order Management", 
+ "name": "test-colorpicker", 
+ "owner": "Administrator", 
+ "page_name": "Test Colorpicker", 
+ "roles": [
+  {
+   "role": "Administrator"
+  }
+ ], 
+ "script": null, 
+ "standard": "Yes", 
+ "style": null, 
+ "title": "Test Colorpicker"
+}

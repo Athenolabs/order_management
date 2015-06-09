@@ -10,6 +10,13 @@
  "document_type": "Master", 
  "fields": [
   {
+   "fieldname": "product_details", 
+   "fieldtype": "Section Break", 
+   "label": "Product Details", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
    "allow_on_submit": 0, 
    "fieldname": "category", 
    "fieldtype": "Link", 
@@ -19,7 +26,7 @@
    "in_list_view": 1, 
    "label": "Category", 
    "no_copy": 0, 
-   "options": "category", 
+   "options": "Category", 
    "permlevel": 0, 
    "precision": "", 
    "print_hide": 0, 
@@ -39,7 +46,7 @@
    "in_list_view": 1, 
    "label": "Subcategory", 
    "no_copy": 0, 
-   "options": "subcategory", 
+   "options": "Subcategory", 
    "permlevel": 0, 
    "precision": "", 
    "print_hide": 0, 
@@ -69,6 +76,21 @@
    "set_only_once": 0
   }, 
   {
+   "fieldname": "images", 
+   "fieldtype": "Section Break", 
+   "label": "Images", 
+   "permlevel": 0, 
+   "precision": "", 
+   "read_only": 1
+  }, 
+  {
+   "fieldname": "misc", 
+   "fieldtype": "Section Break", 
+   "label": "Misc", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
    "allow_on_submit": 0, 
    "fieldname": "description", 
    "fieldtype": "Long Text", 
@@ -92,7 +114,7 @@
    "fieldtype": "Link", 
    "in_list_view": 1, 
    "label": "shape", 
-   "options": "shape", 
+   "options": "Shape", 
    "permlevel": 0, 
    "precision": "", 
    "reqd": 1
@@ -182,7 +204,7 @@
  "is_submittable": 0, 
  "issingle": 0, 
  "istable": 0, 
- "modified": "2015-06-09 15:16:41.832807", 
+ "modified": "2015-06-09 16:32:48.577232", 
  "modified_by": "Administrator", 
  "module": "Order Management", 
  "name": "Product", 

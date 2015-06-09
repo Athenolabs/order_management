@@ -14,8 +14,11 @@ app_version = "0.0.1"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/order_management/css/order_management.css"
-# app_include_js = "/assets/order_management/js/order_management.js"
+app_include_js = [
+	"assets/order_management/js/lib/jquery.colorpicker.js",
+	"assets/order_management/js/lib/jquery-ui.min.js"
+]
+app_include_css = "assets/order_management/css/jquery.colorpicker.css"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/order_management/css/order_management.css"
